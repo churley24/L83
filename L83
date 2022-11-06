@@ -1,0 +1,7 @@
+def count_character(word, letter):
+    total = 0
+    for ch in word:
+        if ch == letter:
+            total = total + 1
+    print(total)
+
